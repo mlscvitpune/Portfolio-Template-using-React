@@ -1,4 +1,9 @@
-1. npm install
-2. npm start / yarn start
-3. make changes!
-4. push changes!
+1. fork repo.
+2. clone repo.
+3. npm install
+4. npm start / yarn start
+5. make changes!
+6. push changes!
+7. make PR!
+8. wait for PR approval!
+9. get T-shirts and swags!
