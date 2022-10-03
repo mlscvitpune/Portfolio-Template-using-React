@@ -7,3 +7,4 @@
 7. make PR!
 8. wait for PR approval!
 9. get T-shirts and swags!
+10.Thanks for todays session on git and github.
