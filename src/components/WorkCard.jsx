@@ -6,8 +6,8 @@ const WorkCard = (props) => {
     return (
         <>
             <div className='shadow-lg  flex justify-center shadow-[#040c16] group container rounded-lg items-center mx-auto content-div'>
-                <div className="group-hover:hidden">
-                    <img src={`${props.imgUrl}`} className="neumorphic-img h-full w-full rounded-lg p-2" alt="" />
+                <div className="group-hover:hidden neumorphic-img">
+                    <img src={`${props.imgUrl}`} className=" bg-cover rounded-lg p-4" alt="" />
                 </div>
                 {/* Hover Effects */}
                 <div className='hidden group-hover:block '>

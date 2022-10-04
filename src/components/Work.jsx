@@ -15,7 +15,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-2'>
           {/* Grid Items */}
           <WorkCard imgUrl={WorkImg} />
           <WorkCard imgUrl={realEstate} />
