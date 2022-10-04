@@ -8,6 +8,7 @@
     body {
         @apply font-[Raleway];
     }
+
     li {
         @apply px-4;
         @apply cursor-pointer
@@ -23,12 +24,12 @@
 
 .content-div:hover {
     background-image: linear-gradient(
-        to bottom,
+        to right,
         rgba(112, 157, 255, 0.8),
         hsla(242, 74%, 61%, 0.8)   
     )!important;
-    box-shadow: 5px 5px 15px #fff;
 }
+<<<<<<< HEAD
 
 
 /* export const Icon = styled.div` */
@@ -69,4 +70,12 @@ align-items: center;
     flex-direction: column;
     margin: 32px 0; */
   /* } */
+=======
+.neumorphic-img {
+    background: linear-gradient(145deg,
+            #0f2342,
+            #0d1e38);
+    box-shadow: 25px 25px 50px #0c1c35,
+        -25px -25px 50px #102647;
+>>>>>>> 6a24b54ce0deecc998c94e758dc561e4c18d8168
 }
