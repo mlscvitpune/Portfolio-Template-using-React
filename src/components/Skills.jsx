@@ -1,15 +1,16 @@
 import React from "react";
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
-import FireBase from "../assets/firebase.png";
-import AWS from "../assets/aws.png";
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+// import HTML from "../assets/html.png";
+// import CSS from "../assets/css.png";
+// import JavaScript from "../assets/javascript.png";
+// import ReactImg from "../assets/react.png";
+// import Node from "../assets/node.png";
+// import FireBase from "../assets/firebase.png";
+// import AWS from "../assets/aws.png";
+// import GitHub from "../assets/github.png";
+// import Tailwind from "../assets/tailwind.png";
+// import Mongo from "../assets/mongo.png";
+import {iconsarray} from '../constants.js';
 
 const Skills = () => {
   return (
@@ -21,6 +22,12 @@ const Skills = () => {
             Skills
           </p>
           <p className='py-4'>// These are the technologies I've worked with</p>
+          <div className="list">
+          {iconsarray.map(({id, image, title, source, height, width}) => (
+          <div className="icon" key={id}><a href = {source} target='_blank' rel='nonreferrer' > <img src = {image} height={height} width={width}/> </a></div>
+        ))}
+        </div>
+          
         </div>
       </div>
     </div>

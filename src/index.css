@@ -29,3 +29,44 @@
     )!important;
     box-shadow: 5px 5px 15px #fff;
 }
+
+
+/* export const Icon = styled.div` */
+.icon{  
+align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1%;
+  padding: 5%;
+  }
+.icon:hover{
+        background-color: #2b2c45;
+          transform: scale(1.2);
+          transition: transform .2s ease-in-out;
+          cursor: pointer;
+  }
+.list{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  gap: 30px;
+  margin: 3rem 0;
+/*   
+  @media ${props => props.theme.breakpoints.lg}{
+    margin: 64px 0;
+  }
+
+  @media ${props => props.theme.breakpoints.md}{
+    margin: 64px 0;
+    gap: 24px
+  }
+  
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0; */
+  /* } */
+}
