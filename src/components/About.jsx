@@ -10,7 +10,7 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
+          <div>This is about component</div>
         </div>
       </div>
     </div>
