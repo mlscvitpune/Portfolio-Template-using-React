@@ -15,12 +15,12 @@ const WorkCard = (props) => {
                             React JS Application
                     </div>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href={props.demoUrl}>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                 Demo
                             </button>
                         </a>
-                        <a href='/'>
+                        <a href={props.codeUrl}>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                 Code
                             </button>
