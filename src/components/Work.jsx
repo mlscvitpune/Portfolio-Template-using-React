@@ -14,7 +14,6 @@ const Work = () => {
           <p className='py-6'>// Check out some of my recent work</p>
         </div>
 
-        {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-2'>
           {/* Grid Items */}
           <WorkCard imgUrl={WorkImg} demoUrl='/' codeUrl='/' />
