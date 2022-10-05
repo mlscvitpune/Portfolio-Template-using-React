@@ -11,10 +11,10 @@ const WorkCard = (props) => {
                 </div>
                 {/* Hover Effects */}
                 <div className='hidden group-hover:block '>
-                    <div className='text-2xl font-bold text-white tracking-wider'>
+                    <div className='text-2xl font-bold text-white tracking-wider animate-pulse'>
                             React JS Application
                     </div>
-                    <div className='pt-8 text-center'>
+                    <div className='pt-8 text-center motion-safe:animate-bounce'>
                         <a href={props.demoUrl}>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                 Demo
