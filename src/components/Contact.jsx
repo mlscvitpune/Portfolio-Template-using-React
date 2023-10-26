@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration : 1000
+    });
+  }, [])
   return (
   <div  name='contact' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' data-aos="fade-right">
        
       <section class="bg-[#0a192f]  dark:bg-gray-900">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
